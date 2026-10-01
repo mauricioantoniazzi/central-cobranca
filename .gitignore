@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Central de Cobrança: registros de uso real (cobranças registradas e assinatura) e saídas de teste
+dados/
+ferramentas/navegador/saida/
