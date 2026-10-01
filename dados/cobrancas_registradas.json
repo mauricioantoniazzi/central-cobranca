@@ -1,0 +1,23 @@
+{
+ "versao": 1,
+ "proximo_id": 2,
+ "registros": [
+  {
+   "id": 1,
+   "cliente": 3,
+   "quando": "2026-08-12T14:11",
+   "canal": "WhatsApp",
+   "tom_chave": "conversa_piora",
+   "tom": "Conversa sobre a mudança",
+   "valor": 12678000,
+   "titulos": [
+    "AUR-2026-00234",
+    "AUR-2026-00235",
+    "AUR-2026-00236",
+    "AUR-2026-00237",
+    "AUR-2026-00238"
+   ],
+   "mensagem": "Olá, Otávio, tudo bem? Aqui é do financeiro da Aurora. Não escrevo para cobrar, escrevo para conversar.\n\nDe uns meses para cá, os pagamentos de vocês têm chegado mais tarde do que vinham chegando. Queria entender se mudou alguma coisa aí: o fluxo de aprovação, algum problema com entrega ou com nota, aperto de caixa. Seja o que for, prefiro resolver junto a deixar acumular.\n\nHoje estão em aberto, só para a gente ter o mesmo número na mão:\n\n• AUR-2026-00234 · R$ 27.970,00 · venceu em 13/07/2026\n• AUR-2026-00235 · R$ 27.080,00 · venceu em 20/07/2026\n• AUR-2026-00236 · R$ 26.160,00 · venceu em 03/08/2026\n• AUR-2026-00237 · R$ 21.440,00 · venceu em 10/08/2026\n• AUR-2026-00238 · R$ 24.130,00 · venceu em 11/08/2026\nTotal: R$ 126.780,00\n\nDá para a gente conversar ainda esta semana? Se for questão de prazo ou de organizar os vencimentos, vejo com o comercial o que dá para fazer.\n\nFico no aguardo do seu retorno."
+  }
+ ]
+}

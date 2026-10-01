@@ -1,0 +1,9 @@
+Fontes usadas pela Central (embutidas para funcionar sem internet)
+
+Inter        - Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)
+Manrope     - Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
+
+Ambas estão sob a SIL Open Font License, Versão 1.1 (https://openfontlicense.org).
+Resumo: pode usar, copiar, embutir e redistribuir, inclusive em produto comercial, desde que a fonte
+não seja vendida sozinha e este aviso acompanhe a fonte. Os arquivos aqui são o recorte "latin" (letras do
+português), baixado do serviço Google Fonts.

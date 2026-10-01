@@ -1,0 +1,5 @@
+Base_2026-08.xlsx e a planilha da empresa de agosto/2026 (data de referencia 12/08/2026), guardada como REFERENCIA DE TESTE.
+Nao apague e nao edite. A conferencia (python conferir.py) compara as telas com o retrato conferencia_base.json, que foi
+gravado com esta planilha; para rodar essa comparacao depois que Base_bruta.xlsx for trocada pela base nova:
+    CENTRAL_BASE=fixtures/Base_2026-08.xlsx python conferir.py        (PowerShell: $env:CENTRAL_BASE='fixtures/Base_2026-08.xlsx')
+Explicacao completa no CLAUDE.md, na raiz do projeto.

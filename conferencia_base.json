@@ -1,0 +1,575 @@
+{
+ "hoje": {
+  "fila": [
+   [
+    1,
+    3,
+    12678000,
+    99.035714
+   ],
+   [
+    2,
+    1,
+    6013000,
+    72.547375
+   ],
+   [
+    3,
+    11,
+    2128000,
+    61.387791
+   ],
+   [
+    4,
+    5,
+    1217000,
+    57.393099
+   ],
+   [
+    5,
+    6,
+    3100000,
+    27.497689
+   ],
+   [
+    6,
+    12,
+    2052000,
+    21.742666
+   ],
+   [
+    7,
+    4,
+    3080000,
+    20.548932
+   ]
+  ],
+  "html": "15237e092cda20eb1ab107841ecabbd37d3cc002323c499589a2b6ffbb0cc18d",
+  "resumo": {
+   "a_vencer": "67922000",
+   "aberto": "98190000",
+   "data_ref": "2026-08-12",
+   "n_abertos": "40",
+   "n_clientes": "12",
+   "n_clientes_vencido": "7",
+   "n_titulos": "754",
+   "n_vencidos": "16",
+   "primeira_emissao": "2024-09-03",
+   "ultima_emissao": "2026-08-11",
+   "vencido": "30268000"
+  }
+ },
+ "risco": {
+  "clientes": {
+   "1": {
+    "alerta": "Atacado São Jorge Ltda tem padrão estável: paga com cerca de 3 dias de atraso, 80% dos pagamentos entre 1 dia antes e 7 dias depois do vencimento, sem piora e sem queda relevante de compras. Atenção: tem R$ 60.130,00 vencido há 51 dias (AUR-2026-00071), contra um atraso máximo histórico de 10 dias. Isso é ruptura do padrão dele: ligar agora, sem esperar a próxima rodada de cobrança.",
+    "fatores": [
+     [
+      "habitual",
+      1.0,
+      "Costuma pagar 3 dias depois do vencimento (mediana de 74 títulos pagos)."
+     ],
+     [
+      "variacao",
+      3.0,
+      "Previsível: 80% dos pagamentos caem entre -1 dia e 7 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      0.0,
+      "Sem piora: nos últimos 90 dias a mediana é 2 dias, contra 3 dias antes."
+     ],
+     [
+      "compras",
+      0.0,
+      "Compras estáveis ou crescendo: nos últimos 90 dias comprou R$ 521.190,00, 3% acima da média de R$ 506.305,00. Último pedido há 9 dias."
+     ],
+     [
+      "limite",
+      6.013571,
+      "Tem R$ 252.570,00 em aberto, 60% do limite de R$ 420.000,00."
+     ],
+     [
+      "vencido",
+      20.0,
+      "Tem R$ 60.130,00 vencidos; o pior título está há 51 dias em atraso, mais que o maior atraso que ele já teve (10 dias)."
+     ]
+    ],
+    "html": "673779b4c39806ff8173db34aeb6b8749cf264e4c79c559b39cfc9fbd09f5ccd",
+    "indice": 30,
+    "saldo": 25257000,
+    "tags": [],
+    "valor_em_risco": 7577100
+   },
+   "10": {
+    "alerta": "Hortifrúti Terra Boa tem padrão estável: paga com cerca de 1 dia de atraso, 80% dos pagamentos entre 0 dias e 5 dias depois do vencimento, sem piora e sem queda relevante de compras. O que fazer: nada além da rotina; cobrar só se passar de 6 dias de atraso, o pior que já teve.",
+    "fatores": [
+     [
+      "habitual",
+      0.333333,
+      "Costuma pagar 1 dia depois do vencimento (mediana de 73 títulos pagos)."
+     ],
+     [
+      "variacao",
+      1.875,
+      "Previsível: 80% dos pagamentos caem entre 0 dias e 5 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      0.0,
+      "Sem piora: nos últimos 90 dias a mediana é 0 dias, contra 1 dia antes."
+     ],
+     [
+      "compras",
+      0.0,
+      "Compras estáveis ou crescendo: nos últimos 90 dias comprou R$ 62.880,00, 20% acima da média de R$ 52.586,67. Último pedido há 2 dias."
+     ],
+     [
+      "limite",
+      0.0,
+      "Tem R$ 0,00 em aberto, 0% do limite de R$ 30.000,00."
+     ],
+     [
+      "vencido",
+      0.0,
+      "Não tem nenhum título vencido hoje."
+     ]
+    ],
+    "html": "ac933be8b66e06dbe0e17f81bd865ddc829931bd979e071cf4049943a8914e0c",
+    "indice": 2,
+    "saldo": 0,
+    "tags": [],
+    "valor_em_risco": 0
+   },
+   "11": {
+    "alerta": "Casa de Carnes Bom Corte tem padrão estável: paga com cerca de 14 dias de atraso, 80% dos pagamentos entre 4 dias e 25 dias depois do vencimento, sem piora e sem queda relevante de compras. Atenção: tem R$ 21.280,00 vencido há 44 dias (AUR-2026-00693), contra um atraso máximo histórico de 30 dias. Isso é ruptura do padrão dele: ligar agora, sem esperar a próxima rodada de cobrança.",
+    "fatores": [
+     [
+      "habitual",
+      4.666667,
+      "Costuma pagar 14 dias depois do vencimento (mediana de 51 títulos pagos)."
+     ],
+     [
+      "variacao",
+      7.875,
+      "Imprevisível: 80% dos pagamentos caem entre 4 dias e 25 dias depois do vencimento, uma faixa de 21 dias."
+     ],
+     [
+      "piora",
+      0.0,
+      "Sem piora: nos últimos 90 dias a mediana é 10 dias, contra 15 dias antes."
+     ],
+     [
+      "compras",
+      0.0,
+      "Compras estáveis ou crescendo: nos últimos 90 dias comprou R$ 123.500,00, 16% acima da média de R$ 106.231,67. Último pedido há 9 dias."
+     ],
+     [
+      "limite",
+      4.86,
+      "Tem R$ 46.170,00 em aberto, 49% do limite de R$ 95.000,00."
+     ],
+     [
+      "vencido",
+      20.0,
+      "Tem R$ 21.280,00 vencidos; o pior título está há 44 dias em atraso, mais que o maior atraso que ele já teve (30 dias)."
+     ]
+    ],
+    "html": "08e2aa1dea585a1088feb9dbd04ec0b02cc9ac7ffe46d1517cb6925f092812a9",
+    "indice": 37,
+    "saldo": 4617000,
+    "tags": [],
+    "valor_em_risco": 1708290
+   },
+   "12": {
+    "alerta": "Adega e Empório Boa Vista paga tarde e sem regularidade: a mediana é de 35 dias depois do vencimento, mas 80% dos pagamentos caem numa faixa de 31 dias (de 20 dias a 51 dias), e o maior atraso foi de 61 dias. Não há padrão em que se possa confiar, então o prazo contratado de 14 dias não significa nada para ele. O que fazer: cobrar logo após o vencimento em vez de esperar, e considerar reduzir o limite ou pedir parte do valor antecipada. Não houve piora recente: o comportamento atual é o de sempre. Atenção: tem R$ 4.390,00 vencido há 93 dias (AUR-2026-00746), contra um atraso máximo histórico de 61 dias. Isso é ruptura do padrão dele: ligar agora, sem esperar a próxima rodada de cobrança.",
+    "fatores": [
+     [
+      "habitual",
+      10.0,
+      "Costuma pagar 35 dias depois do vencimento (mediana de 50 títulos pagos)."
+     ],
+     [
+      "variacao",
+      11.6625,
+      "Imprevisível: 80% dos pagamentos caem entre 20 dias e 51 dias depois do vencimento, uma faixa de 31 dias."
+     ],
+     [
+      "piora",
+      0.0,
+      "Sem piora: nos últimos 90 dias a mediana é 32 dias, contra 35 dias antes."
+     ],
+     [
+      "compras",
+      0.0,
+      "Compras estáveis ou crescendo: nos últimos 90 dias comprou R$ 44.610,00, 20% acima da média de R$ 37.053,33. Último pedido há 2 dias."
+     ],
+     [
+      "limite",
+      8.1725,
+      "Tem R$ 32.690,00 em aberto, 82% do limite de R$ 40.000,00."
+     ],
+     [
+      "vencido",
+      20.0,
+      "Tem R$ 20.520,00 vencidos; o pior título está há 93 dias em atraso, mais que o maior atraso que ele já teve (61 dias)."
+     ]
+    ],
+    "html": "16f889e432d470f09c3ed0693f6533176a44b8394e2b7105a8ab0fd8aa28647b",
+    "indice": 50,
+    "saldo": 3269000,
+    "tags": [],
+    "valor_em_risco": 1634500
+   },
+   "2": {
+    "alerta": "Rede Bom Preço Supermercados aparece na lista de vencidos em 15 dos 22 fins de mês da base, porque o prazo contratado é de 28 dias e ele não paga nesse prazo: em 81 títulos pagos a mediana é de 7 dias depois do vencimento, 80% caem entre 1 dia e 11 dias e o maior atraso que ele já teve foi de 14 dias. O prazo real dele é de cerca de 35 dias. Isto não é cliente ruim, é cliente com outro prazo. O que fazer: não cobrar antes de 14 dias de atraso, que é o pior que ele já fez; só depois disso ligar. Se a Aurora quiser que esse prazo deixe de ser exceção, renegociar o prazo contratado, em vez de cobrar todo mês.",
+    "fatores": [
+     [
+      "habitual",
+      2.333333,
+      "Costuma pagar 7 dias depois do vencimento (mediana de 81 títulos pagos)."
+     ],
+     [
+      "variacao",
+      3.75,
+      "Varia um pouco: 80% dos pagamentos caem entre 1 dia e 11 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      0.0,
+      "Sem piora: nos últimos 90 dias a mediana é 6 dias, contra 7 dias antes."
+     ],
+     [
+      "compras",
+      0.849934,
+      "Compras dentro da oscilação normal: nos últimos 90 dias comprou R$ 444.660,00, 7% abaixo da média de R$ 478.555,00, diferença que ele já teve antes. Último pedido há 13 dias."
+     ],
+     [
+      "limite",
+      3.834118,
+      "Tem R$ 130.360,00 em aberto, 38% do limite de R$ 340.000,00."
+     ],
+     [
+      "vencido",
+      0.0,
+      "Não tem nenhum título vencido hoje."
+     ]
+    ],
+    "html": "4e2ce645b03432faf457d4cbb97cbd4d662dd94e8f392cac0c0021362b737323",
+    "indice": 11,
+    "saldo": 13036000,
+    "tags": [
+     "atrasa_igual"
+    ],
+    "valor_em_risco": 1433960
+   },
+   "3": {
+    "alerta": "Supermercado Vila Nova mudou de comportamento: pagava com cerca de 6 dias de atraso e agora paga com 22 dias, 16 dias a mais, muito além da variação normal dele. Nunca deixou de pagar, mas a mudança é recente e contínua. Ao mesmo tempo, as compras caíram 30% nos últimos 90 dias, o que reforça o sinal. Já tem R$ 126.780,00 vencidos. O que fazer: ligar esta semana, antes de liberar novos pedidos a prazo, para entender a causa (caixa do cliente, disputa, troca de fornecedor) e acompanhar o saldo de R$ 169.010,00, que ocupa 65% do limite.",
+    "fatores": [
+     [
+      "habitual",
+      2.166667,
+      "Costuma pagar 6 dias depois do vencimento (mediana de 70 títulos pagos)."
+     ],
+     [
+      "variacao",
+      4.425,
+      "Varia um pouco: 80% dos pagamentos caem entre 3 dias e 15 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      25.0,
+      "Piorou: nos últimos 90 dias paga com 22 dias de atraso (mediana de 10 títulos), contra 6 dias no resto da história. São 16 dias a mais, 7.4 vezes a variação normal dele."
+     ],
+     [
+      "compras",
+      10.965671,
+      "Compra menos: nos últimos 90 dias comprou R$ 244.340,00, 30% abaixo da média de R$ 348.203,33 por período de 90 dias dos 6 períodos anteriores, e fora da oscilação normal dele. Último pedido há 1 dia."
+     ],
+     [
+      "limite",
+      6.500385,
+      "Tem R$ 169.010,00 em aberto, 65% do limite de R$ 260.000,00."
+     ],
+     [
+      "vencido",
+      19.571429,
+      "Tem R$ 126.780,00 vencidos; o pior título está há 30 dias em atraso, mais do que 98% dos pagamentos dele."
+     ]
+    ],
+    "html": "a783055b28e8536f10a17b1f6c1acbc412c756cf3b93c10a1568122b9d117964",
+    "indice": 69,
+    "saldo": 16901000,
+    "tags": [
+     "piorou",
+     "compra_menos"
+    ],
+    "valor_em_risco": 11661690
+   },
+   "4": {
+    "alerta": "Adega Serra Azul aparece na lista de vencidos em 21 dos 23 fins de mês da base, porque o prazo contratado é de 14 dias e ele não paga nesse prazo: em 75 títulos pagos a mediana é de 18 dias depois do vencimento, 80% caem entre 17 dias e 21 dias e o maior atraso que ele já teve foi de 21 dias. O prazo real dele é de cerca de 32 dias. Isto não é cliente ruim, é cliente com outro prazo. O que fazer: não cobrar antes de 21 dias de atraso, que é o pior que ele já fez; só depois disso ligar. Se a Aurora quiser que esse prazo deixe de ser exceção, renegociar o prazo contratado, em vez de cobrar todo mês.",
+    "fatores": [
+     [
+      "habitual",
+      6.0,
+      "Costuma pagar 18 dias depois do vencimento (mediana de 75 títulos pagos)."
+     ],
+     [
+      "variacao",
+      1.35,
+      "Previsível: 80% dos pagamentos caem entre 17 dias e 21 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      0.0,
+      "Sem piora: nos últimos 90 dias a mediana é 18 dias, contra 18 dias antes."
+     ],
+     [
+      "compras",
+      0.172525,
+      "Compras dentro da oscilação normal: nos últimos 90 dias comprou R$ 164.190,00, 1% abaixo da média de R$ 166.585,00, diferença que ele já teve antes. Último pedido há 9 dias."
+     ],
+     [
+      "limite",
+      4.159048,
+      "Tem R$ 43.670,00 em aberto, 42% do limite de R$ 105.000,00."
+     ],
+     [
+      "vencido",
+      0.0,
+      "Tem R$ 30.800,00 vencidos, mas o pior título está há 14 dias em atraso, dentro do que ele costuma atrasar: só 0% dos pagamentos dele foram mais rápidos."
+     ]
+    ],
+    "html": "5643a25bb076ff40ef0e1fdd0f6eda9519c289485af27b3e3d713115a410bcbe",
+    "indice": 12,
+    "saldo": 4367000,
+    "tags": [
+     "atrasa_igual"
+    ],
+    "valor_em_risco": 524040
+   },
+   "5": {
+    "alerta": "Mercearia Dona Zica parou de comprar: o último pedido foi há 93 dias e o maior intervalo que ele já teve entre pedidos foi de 47 dias. Tem R$ 12.170,00 vencidos, o pior há 112 dias. O que fazer: o comercial deve ligar para entender se perdemos o cliente e, se houver título vencido, a cobrança e a conversa comercial precisam ir juntas, com uma só pessoa conduzindo. Não liberar novo pedido a prazo antes de acertar o vencido.",
+    "fatores": [
+     [
+      "habitual",
+      3.0,
+      "Costuma pagar 9 dias depois do vencimento (mediana de 37 títulos pagos)."
+     ],
+     [
+      "variacao",
+      3.9,
+      "Varia um pouco: 80% dos pagamentos caem entre 4 dias e 14 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      null,
+      "Não dá para dizer se piorou: só 1 título venceu nos últimos 90 dias; preciso de 5 para comparar."
+     ],
+     [
+      "compras",
+      20.0,
+      "Parou de comprar: o último pedido foi há 93 dias e o maior intervalo entre pedidos dele, em toda a história, foi de 47 dias."
+     ],
+     [
+      "limite",
+      4.056667,
+      "Tem R$ 12.170,00 em aberto, 41% do limite de R$ 30.000,00."
+     ],
+     [
+      "vencido",
+      20.0,
+      "Tem R$ 12.170,00 vencidos; o pior título está há 112 dias em atraso, mais que o maior atraso que ele já teve (21 dias)."
+     ]
+    ],
+    "html": "bce41997665762375f5581f05a9aca5e1ea53dae3c24d679883bf5f54c4cb829",
+    "indice": 68,
+    "saldo": 1217000,
+    "tags": [
+     "parou",
+     "historico_curto"
+    ],
+    "valor_em_risco": 827560
+   },
+   "6": {
+    "alerta": "Empório Frescor Hortifrúti tem pouco histórico: só 15 títulos pagos no padrão histórico; preciso de 20. Não estimo nada além disso. O que fazer: acompanhar os próximos vencimentos e voltar a olhar quando houver histórico suficiente.",
+    "fatores": [
+     [
+      "habitual",
+      3.333333,
+      "Costuma pagar 10 dias depois do vencimento (mediana de 25 títulos pagos)."
+     ],
+     [
+      "variacao",
+      5.325,
+      "Varia um pouco: 80% dos pagamentos caem entre 4 dias e 19 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      null,
+      "Não dá para dizer se piorou: só 15 títulos pagos no padrão histórico; preciso de 20."
+     ],
+     [
+      "compras",
+      null,
+      "Sem dados suficientes para comparar compras: só 10 meses de histórico de compras; preciso de pelo menos 15 para comparar."
+     ],
+     [
+      "limite",
+      9.104286,
+      "Tem R$ 63.730,00 em aberto, 91% do limite de R$ 70.000,00."
+     ],
+     [
+      "vencido",
+      0.4,
+      "Tem R$ 31.000,00 vencidos, mas o pior título está há 2 dias em atraso, dentro do que ele costuma atrasar: só 2% dos pagamentos dele foram mais rápidos."
+     ]
+    ],
+    "html": "3603c0c5181f8b06ae025a9d47881bf889572b3798d5173d775f9034fc73ee88",
+    "indice": 33,
+    "saldo": 6373000,
+    "tags": [
+     "historico_curto"
+    ],
+    "valor_em_risco": 2103090
+   },
+   "7": {
+    "alerta": "Congelados Polo Norte atrasa mais em janeiro e fevereiro, e isso se repetiu em anos diferentes: é o calendário do negócio dele, não deterioração. Nos outros meses paga com cerca de 7 dias de atraso. Por isso esses meses foram descontados da comparação. O que fazer: não tratar o atraso desses meses como inadimplência; combinar o vencimento com ele, se possível, e voltar a cobrar pelo padrão normal quando o mês passar.",
+    "fatores": [
+     [
+      "habitual",
+      2.333333,
+      "Costuma pagar 7 dias depois do vencimento (mediana de 58 títulos pagos, sem contar os meses sazonais)."
+     ],
+     [
+      "variacao",
+      3.75,
+      "Varia um pouco: 80% dos pagamentos caem entre 3 dias e 13 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      0.0,
+      "Sem piora: nos últimos 90 dias a mediana é 7 dias, contra 7 dias antes. Meses sazonais (janeiro e fevereiro) ficaram de fora da comparação."
+     ],
+     [
+      "compras",
+      0.819546,
+      "Compras dentro da oscilação normal: nos últimos 90 dias comprou R$ 196.130,00, 7% abaixo da média de R$ 210.506,67, diferença que ele já teve antes. Último pedido há 16 dias."
+     ],
+     [
+      "limite",
+      2.94619,
+      "Tem R$ 61.870,00 em aberto, 29% do limite de R$ 210.000,00."
+     ],
+     [
+      "vencido",
+      0.0,
+      "Não tem nenhum título vencido hoje."
+     ]
+    ],
+    "html": "d79786355e1dafa3ae0699c6508efdb62cc887cd4fab3b45bd95a5efef928f0e",
+    "indice": 10,
+    "saldo": 6187000,
+    "tags": [
+     "sazonal"
+    ],
+    "valor_em_risco": 618700
+   },
+   "8": {
+    "alerta": "Farmácia São Rafael tem padrão estável: paga com cerca de 3 dias de atraso, 80% dos pagamentos entre 1 dia antes e 7 dias depois do vencimento, sem piora e sem queda relevante de compras. O que fazer: nada além da rotina; cobrar só se passar de 8 dias de atraso, o pior que já teve.",
+    "fatores": [
+     [
+      "habitual",
+      1.0,
+      "Costuma pagar 3 dias depois do vencimento (mediana de 64 títulos pagos)."
+     ],
+     [
+      "variacao",
+      2.8875,
+      "Previsível: 80% dos pagamentos caem entre -1 dia e 7 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      0.632344,
+      "Sem piora confirmada: nos últimos 90 dias a mediana é 4 dias, contra 3 dias antes. A diferença de 2 dias cabe na variação normal dele (0.5 vezes), então não conta como deterioração."
+     ],
+     [
+      "compras",
+      0.0,
+      "Compras estáveis ou crescendo: nos últimos 90 dias comprou R$ 116.480,00, 54% acima da média de R$ 75.543,33. Último pedido há 5 dias."
+     ],
+     [
+      "limite",
+      5.038182,
+      "Tem R$ 27.710,00 em aberto, 50% do limite de R$ 55.000,00."
+     ],
+     [
+      "vencido",
+      0.0,
+      "Não tem nenhum título vencido hoje."
+     ]
+    ],
+    "html": "f878f56ae005a6572e25e4a5cbbfbaf21b800149123fe9645643d9c8f1c9f8b2",
+    "indice": 10,
+    "saldo": 2771000,
+    "tags": [],
+    "valor_em_risco": 277100
+   },
+   "9": {
+    "alerta": "Supermercado Estrela do Vale tem padrão estável: paga com cerca de 4 dias de atraso, 80% dos pagamentos entre 1 dia antes e 10 dias depois do vencimento, sem piora e sem queda relevante de compras. O que fazer: nada além da rotina; cobrar só se passar de 13 dias de atraso, o pior que já teve.",
+    "fatores": [
+     [
+      "habitual",
+      1.333333,
+      "Costuma pagar 4 dias depois do vencimento (mediana de 56 títulos pagos)."
+     ],
+     [
+      "variacao",
+      4.125,
+      "Varia um pouco: 80% dos pagamentos caem entre -1 dia e 10 dias depois do vencimento."
+     ],
+     [
+      "piora",
+      0.518846,
+      "Sem piora confirmada: nos últimos 90 dias a mediana é 6 dias, contra 4 dias antes. A diferença de 2 dias cabe na variação normal dele (0.4 vezes), então não conta como deterioração."
+     ],
+     [
+      "compras",
+      0.0,
+      "Compras estáveis ou crescendo: nos últimos 90 dias comprou R$ 293.380,00, 10% acima da média de R$ 266.165,00. Último pedido há 8 dias."
+     ],
+     [
+      "limite",
+      5.914583,
+      "Tem R$ 141.950,00 em aberto, 59% do limite de R$ 240.000,00."
+     ],
+     [
+      "vencido",
+      0.0,
+      "Não tem nenhum título vencido hoje."
+     ]
+    ],
+    "html": "e6e5ab8868966e355ab11e10173d7e5857576bd310a1d279107ae27a09c13dad",
+    "indice": 12,
+    "saldo": 14195000,
+    "tags": [],
+    "valor_em_risco": 1703400
+   }
+  },
+  "html_lista": "8c16c0c7e989918b0b2d1e3a7c2e0da7f6bf82aecd7ceddf9e2a00a288a4ac7b",
+  "ordem": [
+   3,
+   1,
+   6,
+   11,
+   9,
+   12,
+   2,
+   5,
+   7,
+   4,
+   8,
+   10
+  ]
+ }
+}
